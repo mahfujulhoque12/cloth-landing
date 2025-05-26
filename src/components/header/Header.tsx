@@ -28,10 +28,10 @@ const Header = () => {
            
             </Link>
        
-            <div className='relative'> 
+            <Link href="/card" className='relative'> 
                 <button className='text-[#FFA725] cursor-pointer'><SiShopify  size={40} /></button>
                 <span className='text-xs font-normal bg-[#FFA725] text-white p-0.5 rounded-full absolute -top-2 -right-1'>02</span>
-            </div>
+            </Link>
 
         </div>
     </MaxWidthWrapper>
